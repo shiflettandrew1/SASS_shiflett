@@ -1,0 +1,16 @@
+h1 {
+  color: #f93f3f;
+}
+
+nav {
+  background-color: bisque;
+}
+nav a {
+  color: #f93f3f;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: rgb(21, 111, 189);
+}/*# sourceMappingURL=main.css.map */
