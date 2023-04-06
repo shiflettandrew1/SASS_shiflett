@@ -1,0 +1,17 @@
+@mixin primary-button($color) {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: $color;
+    color: black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    border-style: none;
+    cursor: pointer;
+    &:hover {
+        background-color: darken($color, 15%);
+    }
+}
+
+@mixin primary-font($primary-font) {
+    font-family: "Montserrat", sans-serif;
+}

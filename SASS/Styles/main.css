@@ -1,5 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
   color: #f93f3f;
+}
+
+.primary {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: aliceblue;
+  color: black;
+  border-radius: 15px;
+  padding: 5px 10px;
+  border-style: none;
+  cursor: pointer;
+}
+.primary:hover {
+  background-color: #a4d4ff;
+}
+
+.secondary {
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  background-color: red;
+  color: black;
+  border-radius: 15px;
+  padding: 5px 10px;
+  border-style: none;
+  cursor: pointer;
+}
+.secondary:hover {
+  background-color: #b30000;
 }
 
 nav {
@@ -13,4 +46,8 @@ nav ul li {
 }
 nav ul li a {
   color: rgb(21, 111, 189);
+}
+
+.buttons {
+  margin-top: 20px;
 }/*# sourceMappingURL=main.css.map */

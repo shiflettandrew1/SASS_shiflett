@@ -1,11 +1,25 @@
 @use "./vendor/normalize";
 @use "./partials/colors";
+@use "./partials/mixins";
+@use "./partials/typography";
+
+body {
+    font-family: typography.$primary-font;
+}
 
 $primary-color: #f93f3f;
 $font-color: #414141;
 
 h1 {
     color: colors.$primary-color;
+}
+
+.primary {  
+    @include mixins.primary-button(aliceblue);
+}
+
+.secondary {
+    @include mixins.primary-button(red);
 }
 
 nav {
@@ -21,4 +35,8 @@ nav {
             }
         }
     }
+}
+
+.buttons {
+    margin-top: 20px;
 }
