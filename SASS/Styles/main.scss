@@ -3,15 +3,15 @@
 @use "./partials/mixins";
 @use "./partials/typography";
 
-body {
-    font-family: typography.$primary-font;
+title {
+    font-family: typography.$title;
 }
 
 $primary-color: #f93f3f;
 $font-color: #414141;
 
 h1 {
-    color: colors.$primary-color;
+    @include mixins.header($header1)
 }
 
 .primary {  
@@ -19,7 +19,7 @@ h1 {
 }
 
 .secondary {
-    @include mixins.primary-button(red);
+    @include mixins.primary-button(rgb(139, 83, 83));
 }
 
 nav {

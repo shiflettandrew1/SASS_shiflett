@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
-body {
+@import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+title {
   font-family: "Montserrat", sans-serif;
 }
 
@@ -24,7 +25,7 @@ h1 {
 .secondary {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
-  background-color: red;
+  background-color: rgb(139, 83, 83);
   color: black;
   border-radius: 15px;
   padding: 5px 10px;
@@ -32,7 +33,7 @@ h1 {
   cursor: pointer;
 }
 .secondary:hover {
-  background-color: #b30000;
+  background-color: #5b3636;
 }
 
 nav {
