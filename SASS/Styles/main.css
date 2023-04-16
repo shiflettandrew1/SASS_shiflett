@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis&family=Marck+Script&display=swap");
 title {
   font-family: "Montserrat", sans-serif;
 }
@@ -51,4 +52,46 @@ nav ul li a {
 
 .buttons {
   margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    color: green;
+    font-size: 3rem;
+  }
+  .container {
+    background-color: yellow;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    background-color: white;
+  }
+}
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 10px;
+  border: 1px dotted;
+  height: 90vh;
+}
+
+.green, .red, .blue {
+  height: 50px;
+  border: 2px solid;
+}
+
+.green {
+  background-color: greenyellow;
+}
+
+.red {
+  background-color: #f93f3f;
+  flex-grow: 1.25;
+}
+
+.blue {
+  background-color: navy;
 }/*# sourceMappingURL=main.css.map */

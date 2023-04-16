@@ -1,4 +1,5 @@
 @use "./typography";
+@use "./colors";
 
 @mixin primary-button($color) {
     font-size: 20px;
@@ -15,18 +16,21 @@
 }
 
 @mixin primary-font($primary-font) {
-    font-family: $primary-font;
+    font-family: 'Montserrat', sans-serif;
     font-size: larger;
 }
 
 @mixin title($title) {
+    color: $secondary-font-color;
     font-family: $title;
     font-size: larger;
     font-weight: 200;
 }
 
 @mixin header($header1) {
+    color: $font-color;
     font-family: $header1;
     font-size: 48px;
     font-weight: 100;
 }
+

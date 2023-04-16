@@ -11,7 +11,7 @@ $primary-color: #f93f3f;
 $font-color: #414141;
 
 h1 {
-    @include mixins.header($header1)
+    color: colors.$primary-color;
 }
 
 .primary {  
@@ -39,4 +39,53 @@ nav {
 
 .buttons {
     margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+
+    h1{
+        color: green;
+        font-size: 3rem;
+    }
+    .container {
+        background-color: yellow;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        background-color: white;
+    }
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+
+
+
+    margin: 10px;
+    border: 1px dotted;
+    height: 90vh;
+}
+
+.green, .red, .blue {
+    height: 50px;
+    border: 2px solid;
+}
+
+.green {
+    background-color: greenyellow;
+}
+
+.red {
+    background-color: #f93f3f;
+    flex-grow: 1.25;
+}
+
+.blue{
+    background-color: navy;
 }
